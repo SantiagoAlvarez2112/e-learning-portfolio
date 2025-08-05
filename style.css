@@ -1,0 +1,71 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+body > * {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5rem;
+  color: #1a73e8;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Link List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  color: #0b57d0;
+}
